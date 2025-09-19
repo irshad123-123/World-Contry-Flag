@@ -1,3 +1,6 @@
+body{
+    background-color: blueviolet;
+}
 #countryContainer figure{
     height: 150px;
     width: 100%;
@@ -11,4 +14,33 @@
 #countryContainer .about{
     height: 80px;
     overflow-y: auto;
+}
+.loader{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top:0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+    position: fixed;
+    bottom: 5%;
+    right: 8%;
+    background-color: black;
+    color:white;
+    padding: 5px;
+    border-radius: 10%;
+}
+.arrow:hover{
+    background-color: white;
+    color: black;
+}
+.position{
+    position: fixed;
+    top:9%;
+    left: 2%;
 }
